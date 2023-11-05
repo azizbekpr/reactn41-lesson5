@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    /* 1440-2*100=1220; */
+    width: 1220px;
+}
+
+.title {
+    margin-bottom: 55px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+}
+
+.project-card {
+    border-radius: 11px;
+    display: inline-block;
+    margin-bottom: 30px;
+    background-color: green;
+}
+
+.project-card-2,
+.project-card-5 {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.project-content {
+    padding: 20px 35px 25px;
+}
+
+.project-content h3 {
+    font-size: 20px;
+    color: #3D3D3F;
+}
